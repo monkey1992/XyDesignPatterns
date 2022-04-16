@@ -6,7 +6,7 @@ package com.xy.designpatterns.state
 interface IState {
 
     /**
-     * 状态对应的行为
+     * 状态要执行的行为
      */
     fun run()
 }
