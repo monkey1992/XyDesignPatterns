@@ -1,5 +1,8 @@
 package com.xy.designpatterns.state
 
+/**
+ * 白天状态
+ */
 class DayState : IState {
 
     init {
@@ -7,6 +10,6 @@ class DayState : IState {
     }
 
     override fun run() {
-        println("进入白天，吃饭、上班、运动")
+        println("进入白天，白天要吃饭、上班、运动！")
     }
 }
