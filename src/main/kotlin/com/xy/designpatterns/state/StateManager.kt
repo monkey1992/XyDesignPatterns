@@ -1,5 +1,8 @@
 package com.xy.designpatterns.state
 
+/**
+ * 状态管理类
+ */
 class StateManager : IStateManager {
 
     override var state: IState = IdleState()
