@@ -8,7 +8,7 @@ interface IStateManager {
     /**
      * 当前状态
      */
-    val state: IState?
+    val state: IState
 
     /**
      * 根据事件转换状态
