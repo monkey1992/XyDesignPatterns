@@ -3,7 +3,7 @@ package com.xy.designpatterns.template.classdiagram
 /**
  * 抽象类
  */
-abstract class AbstractClass {
+abstract class AbsTemplate {
 
     /**
      * 模板方法
