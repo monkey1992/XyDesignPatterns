@@ -3,7 +3,7 @@ package com.xy.designpatterns.state
 import org.junit.jupiter.api.Test
 
 /**
- * 状态模式示例
+ * 状态模式测试类
  */
 class Main {
 

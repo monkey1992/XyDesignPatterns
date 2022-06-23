@@ -3,7 +3,7 @@ package com.xy.designpatterns.template.classdiagram
 /**
  * 具体类
  */
-class ConcreteClass : AbstractClass() {
+class ConcreteImpl : AbsTemplate() {
 
     override fun method1() {
         println("method1 invoked")
