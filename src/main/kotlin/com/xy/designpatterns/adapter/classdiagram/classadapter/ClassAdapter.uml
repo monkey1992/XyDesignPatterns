@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.xy.designpatterns.adapter.classdiagram.classadapter.Adapter</OriginalElement>
+  <nodes>
+    <node x="87.25" y="128.0">com.xy.designpatterns.adapter.classdiagram.classadapter.Adapter</node>
+    <node x="0.0" y="11.5">com.xy.designpatterns.adapter.classdiagram.ITarget</node>
+    <node x="193.0" y="0.0">com.xy.designpatterns.adapter.classdiagram.classadapter.Adaptee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.xy.designpatterns.adapter.classdiagram.classadapter.Adapter" target="com.xy.designpatterns.adapter.classdiagram.classadapter.Adaptee" relationship="GENERALIZATION">
+      <point x="79.0" y="-39.0" />
+      <point x="-8.25" y="39.0" />
+    </edge>
+    <edge source="com.xy.designpatterns.adapter.classdiagram.classadapter.Adapter" target="com.xy.designpatterns.adapter.classdiagram.ITarget" relationship="REALIZATION">
+      <point x="-79.0" y="-39.0" />
+      <point x="8.25" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="164.5" y="103.0" />
+  <SelectedNodes>
+    <node>com.xy.designpatterns.adapter.classdiagram.classadapter.Adapter</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

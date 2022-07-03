@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.xy.designpatterns.adapter.classdiagram.objectadapter.Adapter</OriginalElement>
+  <nodes>
+    <node x="0.0" y="11.5">com.xy.designpatterns.adapter.classdiagram.ITarget</node>
+    <node x="145.66666666666666" y="128.0">com.xy.designpatterns.adapter.classdiagram.objectadapter.Adapter</node>
+    <node x="193.0" y="0.0">com.xy.designpatterns.adapter.classdiagram.objectadapter.Adaptee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.xy.designpatterns.adapter.classdiagram.objectadapter.Adapter" target="com.xy.designpatterns.adapter.classdiagram.ITarget" relationship="REALIZATION">
+      <point x="-79.0" y="-50.5" />
+      <point x="66.66666666666666" y="27.5" />
+    </edge>
+    <edge source="com.xy.designpatterns.adapter.classdiagram.objectadapter.Adapter" target="com.xy.designpatterns.adapter.classdiagram.objectadapter.Adaptee" relationship="TO_ONE">
+      <point x="43.83333333333334" y="-50.5" />
+      <point x="15.0" y="39.0" />
+    </edge>
+    <edge source="com.xy.designpatterns.adapter.classdiagram.objectadapter.Adapter" target="com.xy.designpatterns.adapter.classdiagram.objectadapter.Adaptee" relationship="CREATE">
+      <point x="28.833333333333343" y="-50.5" />
+      <point x="0.0" y="39.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="164.5" y="114.5" />
+  <SelectedNodes>
+    <node>com.xy.designpatterns.adapter.classdiagram.objectadapter.Adaptee</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
