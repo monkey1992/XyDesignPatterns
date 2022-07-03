@@ -10,12 +10,13 @@ import com.xy.designpatterns.adapter.sample.IElectricEnergyDevice
 class HydropowerAdapter : IElectricEnergyDevice {
 
     private val hydroEnergyDevice: HydroEnergyDevice by lazy {
+        println("${LABEL}持有${HydroEnergyDevice.LABEL}")
         HydroEnergyDevice()
     }
 
     override fun outputElectricEnergy(): ElectricEnergy {
         val hydroEnergy = hydroEnergyDevice.inputHydroEnergy()
-        println("${LABEL}提供水能（$hydroEnergy）")
+        println("${HydroEnergyDevice.LABEL}提供水能（$hydroEnergy）")
         val electricEnergy = electricEnergyToHydroEnergy(hydroEnergy)
         println("${LABEL}把水能（$hydroEnergy）转换成为电能（$electricEnergy）")
         println("${LABEL}输出电能（$electricEnergy）")
