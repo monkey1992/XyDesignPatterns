@@ -14,4 +14,9 @@ class HydroEnergyDevice {
     fun inputHydroEnergy(): HydroEnergy {
         return HydroEnergy(Energy(hashCode().toString()))
     }
+
+    companion object {
+
+        const val LABEL = "【水能设备】"
+    }
 }
