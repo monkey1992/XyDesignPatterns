@@ -12,6 +12,8 @@ import com.xy.designpatterns.adapter.classdiagram.objectadapter.Adapter
 class Adapter : Adaptee(), ITarget {
 
     override fun targetMethod() {
+        // 访问父类[Adaptee]的method()方法
+        // 将[ITarget]接口方法的具体实现转移到[Adapter]类
         method()
     }
 }
