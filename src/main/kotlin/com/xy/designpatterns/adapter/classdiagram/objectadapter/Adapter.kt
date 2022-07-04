@@ -5,8 +5,8 @@ import com.xy.designpatterns.adapter.classdiagram.ITarget
 /**
  * 适配器
  *
- * 通过继承[Adaptee]并同时实现[ITarget]，使适配器拥有同时拥有[Adaptee]和[ITarget]的能力，
- * 这样就能基于[Adaptee]现有的能力来实现目标接口定义的需求。
+ * 通过持有[Adaptee]实例并实现[ITarget]，使[Adapter]拥有[ITarget]的能力，并能够访问[Adaptee]
+ * 公开出来的接口方法，从而将[ITarget]的具体实现委托给[Adaptee]实例。
  */
 class Adapter : ITarget {
 
