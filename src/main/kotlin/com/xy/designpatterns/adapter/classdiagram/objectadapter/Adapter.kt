@@ -14,7 +14,7 @@ class Adapter : ITarget {
 
     override fun targetMethod() {
         // 调用[Adaptee]对象的method()方法
-        // 将[ITarget]接口方法的具体实现委托给[Adapter]对象
+        // 将[ITarget]接口方法的具体实现委托给[Adaptee]对象
         adaptee.method()
     }
 }
