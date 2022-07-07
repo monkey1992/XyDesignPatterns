@@ -5,7 +5,7 @@ import com.xy.designpatterns.adapter.model.HydroEnergy
 import com.xy.designpatterns.adapter.sample.IElectricEnergyDevice
 
 /**
- * 水力发电适配器，即水力发电装置，将水能装换为电能
+ * 水力发电适配器，即水力发电装置，将水能转化为电能
  */
 class HydropowerAdapter : HydroEnergyDevice(), IElectricEnergyDevice {
 
