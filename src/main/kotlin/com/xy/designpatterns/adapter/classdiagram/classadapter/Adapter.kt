@@ -6,7 +6,7 @@ import com.xy.designpatterns.adapter.classdiagram.objectadapter.Adapter
 /**
  * 适配器
  *
- * 通过继承[Adaptee]并实现[ITarget]，使[Adapter]拥有同时拥有[Adaptee]和[ITarget]的能力，
+ * 通过继承[Adaptee]并实现[ITarget]，使[Adapter]同时拥有[Adaptee]和[ITarget]的能力，
  * 从而将[ITarget]的具体实现转移到[Adaptee]类。
  */
 class Adapter : Adaptee(), ITarget {
