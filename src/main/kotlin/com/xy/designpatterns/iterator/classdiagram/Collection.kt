@@ -5,7 +5,11 @@ package com.xy.designpatterns.iterator.classdiagram
  */
 interface Collection<T> {
 
-    fun iterator(): Iterator
+    fun iterator(): Iterator<T>
 
     fun add(t: T)
+
+    fun size(): Int
+
+    operator fun get(cursor: Int): T
 }
