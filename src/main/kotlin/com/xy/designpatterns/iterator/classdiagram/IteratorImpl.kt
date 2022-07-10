@@ -2,15 +2,18 @@ package com.xy.designpatterns.iterator.classdiagram
 
 class IteratorImpl<T>(private val collectionImpl: CollectionImpl<T>) : Iterator<T> {
 
-    val cursor: Int = -1
+    private var cursor: Int = 0
 
     override fun hasNext(): Boolean {
-        if (cursor < collectionImpl) {
+        if (cursor < collectionImpl.size() - 1) {
+            return true
         }
         return false
     }
 
     override fun next(): T {
-
+        val item = collectionImpl[cursor]
+        cursor++
+        return item
     }
 }
