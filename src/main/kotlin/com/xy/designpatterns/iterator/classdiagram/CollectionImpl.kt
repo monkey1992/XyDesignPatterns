@@ -2,7 +2,7 @@ package com.xy.designpatterns.iterator.classdiagram
 
 class CollectionImpl<T> : Collection<T> {
 
-    private val array: Array<Any?> by lazy { arrayOf() }
+    private var array: Array<Any?> = emptyArray()
 
     private val iterator: Iterator<T> by lazy { IteratorImpl(this) }
 
@@ -11,7 +11,7 @@ class CollectionImpl<T> : Collection<T> {
     }
 
     override fun add(t: T) {
-        array[array.size] = t
+        array = array.plus(t)
     }
 
     override fun size(): Int {
