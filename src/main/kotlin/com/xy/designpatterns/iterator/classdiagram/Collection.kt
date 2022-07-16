@@ -7,8 +7,6 @@ interface Collection<T> {
 
     fun iterator(): Iterator<T>
 
-    fun add(t: T)
-
     fun size(): Int
 
     operator fun get(cursor: Int): T
