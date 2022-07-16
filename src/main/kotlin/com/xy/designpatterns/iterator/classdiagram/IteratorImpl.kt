@@ -5,7 +5,7 @@ class IteratorImpl<T>(private val collectionImpl: CollectionImpl<T>) : Iterator<
     private var cursor: Int = 0
 
     override fun hasNext(): Boolean {
-        if (cursor < collectionImpl.size() - 1) {
+        if (cursor < collectionImpl.size()) {
             return true
         }
         return false
