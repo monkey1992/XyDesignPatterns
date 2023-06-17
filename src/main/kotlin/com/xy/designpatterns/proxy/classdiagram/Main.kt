@@ -7,7 +7,7 @@ class Main {
     /**
      * 静态代理
      */
-    private fun staticProxy() {
+    fun staticProxy() {
         val subject: Subject = ProxySubject(RealSubject())
         subject.method()
     }
@@ -15,7 +15,7 @@ class Main {
     /**
      * 动态代理
      */
-    private fun dynamicProxy() {
+    fun dynamicProxy() {
         val subject: Subject = RealSubject()
         val clazz = subject::class.java
         val proxy = Proxy.newProxyInstance(
